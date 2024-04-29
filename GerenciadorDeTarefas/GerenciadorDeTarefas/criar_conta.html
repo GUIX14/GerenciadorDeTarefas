@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background-color: #007bff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title1,
+        .title2 {
+            font-family: "Dancing Script", cursive;
+            text-align: center;
+        }
+
+        .title1 {
+            padding-top: 8px;
+        }
+
+        .line {
+            margin-bottom: 0;
+            padding: 0;
+            width: 100%;
+            height: 5px;
+            background-color: #0056b3;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-image: url('toDo.avif');
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #0056b3;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333333;
+            /* preto */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <H1 class="title1">TO DO LIST</H1>
+        <H3 class="title2">Sua Agenda Virtual.</H3>
+    </div>
+    <hr class="line">
+    <div class="container">
+        <h2>Criar Conta</h2>
+        <form action="#">
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Sobrenome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="submit" value="Criar">
+        </form>
+    </div>
+</body>
+
+</html>
